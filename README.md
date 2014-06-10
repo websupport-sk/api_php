@@ -6,7 +6,7 @@ In the composer.json file in your project add:
 {
     "repositories": [
         {
-            "url": "https://github.com/websupport/api_php.git",
+            "url": "http://github.com/websupport-sk/api_php.git",
             "type": "git"
         }
     ],
@@ -50,3 +50,6 @@ try {
 
 ```
 
+### API Docs
+
+https://rest.websupport.sk/docs/index
