@@ -1,0 +1,21 @@
+{
+	"name": "websupport/api_php",
+	"description": "Wrapper around cURL for simpler REST API communication",
+	"license": "GPL-3.0+",
+	"authors": [
+		{
+			"name": "Matej Capkovic",
+			"email": "capkovic@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"source": "https://github.com/websupport/api_php"
+	},
+	"autoload": {
+		"psr-4": {
+			"websupport\\": "websupport/"
+		}
+	}
+}
+
