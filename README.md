@@ -41,7 +41,9 @@ try {
 // ordering domain
 try {
 	$orderInfo = $api->post('user/self/order', array(
-		array('type'=>'domain', 'domain'=>'newdomain.com')
+		"services"=>array(
+			array('type'=>'domain', 'domain'=>'newdomain.com')
+		)
 	));
 	var_dump($orderInfo);
 } catch (\websupport\RestException $e) {
