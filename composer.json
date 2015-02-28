@@ -2,6 +2,11 @@
 	"name": "websupport/api_php",
 	"description": "Wrapper around cURL for simpler REST API communication",
 	"license": "GPL-3.0+",
+	"homepage": "https://github.com/websupport-sk/api_php",
+	"require": {
+		"php": ">=5.3",
+		"lib-curl": "*"
+	},
 	"authors": [
 		{
 			"name": "Matej Capkovic",
@@ -10,7 +15,9 @@
 		}
 	],
 	"support": {
-		"source": "https://github.com/websupport/api_php"
+		"source": "https://github.com/websupport/api_php",
+		"issues": "https://github.com/websupport-sk/api_php/issues",
+		"wiki": "https://rest.websupport.sk/docs/index"
 	},
 	"autoload": {
 		"psr-4": {

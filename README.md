@@ -1,17 +1,17 @@
 ### Instalation using composer
 
-In the composer.json file in your project add:
+Require composer package using terminal:
+
+```sh
+composer require websupport/api_php
+```
+
+Or add following to `composer.json` file in your project:
 
 ```json
 {
-    "repositories": [
-        {
-            "url": "http://github.com/websupport-sk/api_php.git",
-            "type": "git"
-        }
-    ],
 	"require" : {
-		"websupport/api_php" : "dev-master"
+		"websupport/api_php" : "~1.0"
 	}
 }
 ```
@@ -19,7 +19,7 @@ In the composer.json file in your project add:
 And then run:
 
 ```sh
-php composer.phar install
+composer update
 ```
 
 **Note:** Requires PHP version 5.3 or higher and the PHP cURL extension
@@ -54,4 +54,4 @@ try {
 
 ### API Docs
 
-https://rest.websupport.sk/docs/index
+More detailed documentation of all api methods can be found at our [docs page](https://rest.websupport.sk/docs/index).
